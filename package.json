@@ -1,0 +1,25 @@
+{
+  "name": "php-extract",
+  "version": "0.1.0",
+  "description": "PHP's extract() function, ported to JavaScript.",
+  "author": "Jim R. Wilson <wilson.jim.r@gmail.com> (http://jimbojw.com/)",
+  "license": "MIT",
+  "tags": [
+    "extract",
+    "php"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jimbojw/php-extract.js.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jimbojw/php-extract.js/issues"
+  },
+  "main": "extract.js",
+  "scripts": {
+    "test": "./node_modules/.bin/nodeunit test.js"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.8.1"
+  }
+}
